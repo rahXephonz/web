@@ -12,8 +12,6 @@ export default component$(() => {
 
   const { menu } = useContent();
 
-  console.log(menu);
-
   return (
     <header
       class={`sticky top-0 z-40 flex-none mx-auto w-full transition-all${
